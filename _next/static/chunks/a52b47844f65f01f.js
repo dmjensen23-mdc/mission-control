@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,76348,e=>{"use strict";var r=e.i(43476);function t({children:e}){return(0,r.jsx)(r.Fragment,{children:e})}e.s(["ConvexProvider",()=>t])}]);
