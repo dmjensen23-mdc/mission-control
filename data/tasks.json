@@ -1,5 +1,28 @@
 [
   {
+    "id": "a5e981b6-5dac-4d2d-a080-967ab788a85b",
+    "title": "Mission Control Data Refresh",
+    "description": "Auto-refresh AI operations dashboard with token usage, cron status, and activity data every 30 minutes",
+    "scheduled_time": 1770663600000,
+    "last_run": 1770661800006,
+    "status": "active",
+    "last_status": "ok",
+    "priority": "medium",
+    "category": "cron",
+    "estimated_duration": 30,
+    "metadata": {
+      "schedule": "*/30 * * * *",
+      "timezone": "UTC",
+      "wakeMode": "next-heartbeat",
+      "lastDurationMs": 24
+    },
+    "tags": [
+      "cron",
+      "automated",
+      "scheduled"
+    ]
+  },
+  {
     "id": "b6d60639-bd53-4ce1-a943-e9c46541de63",
     "title": "Improved Daily Briefing - 6:30 AM CST",
     "description": "Daily Microsoft 365 briefing using BoLT Graph API integration - updated to use new authentication method",
@@ -38,52 +61,6 @@
       "timezone": "UTC",
       "wakeMode": "now",
       "lastDurationMs": 77425
-    },
-    "tags": [
-      "cron",
-      "automated",
-      "scheduled"
-    ]
-  },
-  {
-    "id": "fddd387e-8936-40b7-ab53-6d6297985149",
-    "title": "Debug Cron Execution",
-    "description": "Debug why cron jobs don't execute properly",
-    "scheduled_time": 1801322880000,
-    "last_run": 1769786880000,
-    "status": "active",
-    "last_status": "ok",
-    "priority": "medium",
-    "category": "cron",
-    "estimated_duration": 30,
-    "metadata": {
-      "schedule": "28 15 30 01 *",
-      "timezone": "UTC",
-      "wakeMode": "next-heartbeat",
-      "lastDurationMs": 13
-    },
-    "tags": [
-      "cron",
-      "automated",
-      "scheduled"
-    ]
-  },
-  {
-    "id": "fad5c396-3251-4d17-8437-387708c9e78a",
-    "title": "Voice Wake-Up - Dan Morning",
-    "description": "Morning voice memo wake-up with briefing summary",
-    "scheduled_time": 1802175900000,
-    "last_run": 1770639900002,
-    "status": "active",
-    "last_status": "ok",
-    "priority": "medium",
-    "category": "cron",
-    "estimated_duration": 34,
-    "metadata": {
-      "schedule": "25 12 9 2 *",
-      "timezone": "UTC",
-      "wakeMode": "now",
-      "lastDurationMs": 34909
     },
     "tags": [
       "cron",

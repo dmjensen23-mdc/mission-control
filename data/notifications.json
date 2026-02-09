@@ -1,13 +1,13 @@
 [
   {
-    "id": "8df20874-9024-4201-9393-20553be7108d",
+    "id": "c332a911-7c1a-4cad-bf1f-783e30dbc617",
     "title": "\u2705 All Cron Jobs Healthy",
-    "message": "4 scheduled tasks operational. Next runs on schedule.",
+    "message": "3 scheduled tasks operational. Next runs on schedule.",
     "type": "success",
     "category": "cron",
     "priority": "low",
     "status": "read",
-    "created_time": 1770660675130,
+    "created_time": 1770661821943,
     "metadata": {
       "source": "cron_monitor"
     },
