@@ -1,20 +1,19 @@
 [
   {
-    "id": "9fd83b8f-6420-4bc4-81c8-122c8da804f8",
-    "title": "Microsoft 365 Integration Issue",
-    "message": "BoLT email system connection error: 'BoLTEmailSystem' object has no attribute '_get_access_token'",
-    "type": "error",
-    "category": "system",
-    "priority": "critical",
-    "status": "unread",
-    "created_time": 1770659581826,
+    "id": "8df20874-9024-4201-9393-20553be7108d",
+    "title": "\u2705 All Cron Jobs Healthy",
+    "message": "4 scheduled tasks operational. Next runs on schedule.",
+    "type": "success",
+    "category": "cron",
+    "priority": "low",
+    "status": "read",
+    "created_time": 1770660675130,
     "metadata": {
-      "source": "system_check"
+      "source": "cron_monitor"
     },
     "tags": [
-      "system",
-      "integration",
-      "error"
+      "cron",
+      "healthy"
     ]
   }
 ]

@@ -1,23 +1,22 @@
 {
-  "lastUpdated": 1770659581962,
-  "lastUpdatedISO": "2026-02-09T17:53:01.962971",
+  "lastUpdated": 1770674220000,
+  "lastUpdatedISO": "2026-02-09T18:10:20.000Z",
   "tokenUsage": {
-    "input": 104000,
-    "output": 216,
-    "total": 104216,
-    "cost": 0
+    "input": 59000,
+    "output": 491,
+    "total": 59491,
+    "cost": 0.92
   },
-  "sessionInfo": {},
-  "activities": {
-    "today": 7,
-    "total": 7
+  "context": {
+    "used": 59000,
+    "max": 200000,
+    "percent": 29.5,
+    "compactions": 0
   },
-  "email": {
-    "unread": 6,
-    "total": 61890
-  },
-  "calendar": {
-    "events": 28
+  "model": "anthropic/claude-opus-4-5",
+  "cronJobs": {
+    "active": 4,
+    "healthy": 4
   },
   "notifications": {
     "count": 1
