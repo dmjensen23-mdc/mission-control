@@ -3,8 +3,8 @@
     "id": "a5e981b6-5dac-4d2d-a080-967ab788a85b",
     "title": "Mission Control Data Refresh",
     "description": "Auto-refresh AI operations dashboard with token usage, cron status, and activity data every 30 minutes",
-    "scheduled_time": 1770674400000,
-    "last_run": 1770672600001,
+    "scheduled_time": 1770676200000,
+    "last_run": 1770674400002,
     "status": "active",
     "last_status": "ok",
     "priority": "medium",
@@ -14,7 +14,7 @@
       "schedule": "*/30 * * * *",
       "timezone": "UTC",
       "wakeMode": "next-heartbeat",
-      "lastDurationMs": 14
+      "lastDurationMs": 28
     },
     "tags": [
       "cron",
