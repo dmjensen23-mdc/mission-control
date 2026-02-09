@@ -1,0 +1,20 @@
+[
+  {
+    "id": "9fd83b8f-6420-4bc4-81c8-122c8da804f8",
+    "title": "Microsoft 365 Integration Issue",
+    "message": "BoLT email system connection error: 'BoLTEmailSystem' object has no attribute '_get_access_token'",
+    "type": "error",
+    "category": "system",
+    "priority": "critical",
+    "status": "unread",
+    "created_time": 1770659581826,
+    "metadata": {
+      "source": "system_check"
+    },
+    "tags": [
+      "system",
+      "integration",
+      "error"
+    ]
+  }
+]

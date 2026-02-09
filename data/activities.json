@@ -1,0 +1,136 @@
+[
+  {
+    "id": "c397919d-b4ab-4378-93bc-9db77fb20afa",
+    "type": "system",
+    "action": "integration_started",
+    "title": "Real Activity Integration Started",
+    "description": "Building real-time activity tracking - removing all mock data",
+    "status": "success",
+    "timestamp": 1770654736302,
+    "timestampISO": "2026-02-09T16:32:16.302211",
+    "priority": "high",
+    "source": "clawdbot",
+    "metadata": {},
+    "tags": [
+      "dashboard",
+      "integration",
+      "real-data"
+    ]
+  },
+  {
+    "id": "cf93cf65-371a-403b-a498-cec014379c6f",
+    "type": "system",
+    "action": "dashboard_deployed",
+    "title": "Dashboard Deployed to GitHub Pages",
+    "description": "Pushed timezone fixes to dmjensen23-mdc.github.io/mission-control",
+    "status": "success",
+    "timestamp": 1770654736301,
+    "timestampISO": "2026-02-09T16:32:16.301221",
+    "priority": "medium",
+    "source": "clawdbot",
+    "metadata": {},
+    "tags": [
+      "dashboard",
+      "deployment",
+      "github"
+    ]
+  },
+  {
+    "id": "eb9ac0ea-783f-48a8-8c66-0188e57abfd9",
+    "type": "system",
+    "action": "dashboard_updated",
+    "title": "Mission Control Timezone Fix",
+    "description": "Updated dashboard to display all times in CST (America/Chicago)",
+    "status": "success",
+    "timestamp": 1770654736300,
+    "timestampISO": "2026-02-09T16:32:16.300211",
+    "priority": "medium",
+    "source": "clawdbot",
+    "metadata": {},
+    "tags": [
+      "dashboard",
+      "timezone",
+      "fix"
+    ]
+  },
+  {
+    "id": "cd75ed18-8ed1-43d9-867f-decfdad72bdf",
+    "type": "voice",
+    "action": "voice_memo_sent",
+    "title": "Morning Voice Briefing Delivered",
+    "description": "Sent Aria voice memo with calendar and email summary",
+    "status": "success",
+    "timestamp": 1770654736298,
+    "timestampISO": "2026-02-09T16:32:16.298958",
+    "priority": "medium",
+    "source": "clawdbot",
+    "metadata": {},
+    "tags": [
+      "voice",
+      "briefing",
+      "telegram"
+    ]
+  },
+  {
+    "id": "c5552627-5d85-48bb-a46f-f626a7b58fc9",
+    "type": "email",
+    "action": "email_sent",
+    "title": "Agenda Emailed - People Acquisition Review",
+    "description": "Sent comprehensive meeting agenda to Dan Jensen and Carrie Thompson",
+    "status": "success",
+    "timestamp": 1770654736297,
+    "timestampISO": "2026-02-09T16:32:16.297780",
+    "priority": "high",
+    "source": "clawdbot",
+    "metadata": {
+      "recipients": [
+        "djensen@millis.com",
+        "cthompson@millis.com"
+      ]
+    },
+    "tags": [
+      "email",
+      "agenda",
+      "meeting"
+    ]
+  },
+  {
+    "id": "88a244d4-6ccf-4d39-9412-83558c99f8ba",
+    "type": "calendar",
+    "action": "meeting_created",
+    "title": "Teams Meeting Created - Carrie Thompson",
+    "description": "People Acquisition Strategic Review at 10:30 AM CST",
+    "status": "success",
+    "timestamp": 1770654736296,
+    "timestampISO": "2026-02-09T16:32:16.296705",
+    "priority": "high",
+    "source": "clawdbot",
+    "metadata": {
+      "attendee": "Carrie Thompson",
+      "time": "10:30 AM CST"
+    },
+    "tags": [
+      "calendar",
+      "teams",
+      "meeting"
+    ]
+  },
+  {
+    "id": "b13a296f-79fd-40c7-b9a4-c14e998973a9",
+    "type": "voice",
+    "action": "tts_configured",
+    "title": "Voice TTS Configured - Aria",
+    "description": "Set up Edge TTS with en-US-AriaNeural voice for morning briefings",
+    "status": "success",
+    "timestamp": 1770654736295,
+    "timestampISO": "2026-02-09T16:32:16.295599",
+    "priority": "high",
+    "source": "clawdbot",
+    "metadata": {},
+    "tags": [
+      "voice",
+      "tts",
+      "configuration"
+    ]
+  }
+]

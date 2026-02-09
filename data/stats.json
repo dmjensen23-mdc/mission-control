@@ -1,0 +1,25 @@
+{
+  "lastUpdated": 1770659581962,
+  "lastUpdatedISO": "2026-02-09T17:53:01.962971",
+  "tokenUsage": {
+    "input": 104000,
+    "output": 216,
+    "total": 104216,
+    "cost": 0
+  },
+  "sessionInfo": {},
+  "activities": {
+    "today": 7,
+    "total": 7
+  },
+  "email": {
+    "unread": 6,
+    "total": 61890
+  },
+  "calendar": {
+    "events": 28
+  },
+  "notifications": {
+    "count": 1
+  }
+}
