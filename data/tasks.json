@@ -1,20 +1,43 @@
 [
   {
+    "id": "a5e981b6-5dac-4d2d-a080-967ab788a85b",
+    "title": "Mission Control Data Refresh",
+    "description": "Hourly backup refresh (primary updates happen after each task)",
+    "scheduled_time": 1770732000000,
+    "last_run": 1770728554384,
+    "status": "active",
+    "last_status": "ok",
+    "priority": "medium",
+    "category": "cron",
+    "estimated_duration": 30,
+    "metadata": {
+      "schedule": "0 * * * *",
+      "timezone": "UTC",
+      "wakeMode": "next-heartbeat",
+      "lastDurationMs": 5
+    },
+    "tags": [
+      "cron",
+      "automated",
+      "scheduled"
+    ]
+  },
+  {
     "id": "b6d60639-bd53-4ce1-a943-e9c46541de63",
     "title": "Improved Daily Briefing - 6:30 AM CST",
     "description": "Daily Microsoft 365 briefing using BoLT Graph API integration - updated to use new authentication method",
-    "scheduled_time": 1770726600000,
-    "last_run": 1770640200000,
+    "scheduled_time": 1770813000000,
+    "last_run": 1770726600012,
     "status": "active",
     "last_status": "ok",
     "priority": "high",
     "category": "cron",
-    "estimated_duration": 19,
+    "estimated_duration": 20,
     "metadata": {
       "schedule": "30 12 * * *",
       "timezone": "UTC",
       "wakeMode": "now",
-      "lastDurationMs": 19130
+      "lastDurationMs": 20637
     },
     "tags": [
       "cron",
@@ -26,41 +49,18 @@
     "id": "d163ce09-ae8e-418b-8ad6-ca5384eca715",
     "title": "Daily Blueprint B-Team To-Dos - 7 AM CST",
     "description": "Daily automated Blueprint B-Team to-do report across all companies, organized by team for morning review",
-    "scheduled_time": 1770728400000,
-    "last_run": 1770642000001,
+    "scheduled_time": 1770814800000,
+    "last_run": 1770728400001,
     "status": "active",
     "last_status": "ok",
     "priority": "high",
     "category": "cron",
-    "estimated_duration": 77,
+    "estimated_duration": 154,
     "metadata": {
       "schedule": "0 13 * * 1-5",
       "timezone": "UTC",
       "wakeMode": "now",
-      "lastDurationMs": 77425
-    },
-    "tags": [
-      "cron",
-      "automated",
-      "scheduled"
-    ]
-  },
-  {
-    "id": "a5e981b6-5dac-4d2d-a080-967ab788a85b",
-    "title": "Mission Control Data Refresh",
-    "description": "Hourly backup refresh (primary updates happen after each task)",
-    "scheduled_time": 1770728400000,
-    "last_run": 1770724800011,
-    "status": "active",
-    "last_status": "ok",
-    "priority": "medium",
-    "category": "cron",
-    "estimated_duration": 30,
-    "metadata": {
-      "schedule": "0 * * * *",
-      "timezone": "UTC",
-      "wakeMode": "next-heartbeat",
-      "lastDurationMs": 43
+      "lastDurationMs": 154357
     },
     "tags": [
       "cron",
