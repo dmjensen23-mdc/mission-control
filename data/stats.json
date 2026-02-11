@@ -1,6 +1,6 @@
 {
-  "lastUpdated": 1770782400000,
-  "lastUpdatedISO": "2026-02-11T02:00:00.000000+00:00",
+  "lastUpdated": 1770786000000,
+  "lastUpdatedISO": "2026-02-11T03:00:00.000000+00:00",
   "tokenUsage": {
     "input": 10,
     "output": 43,
@@ -8,9 +8,9 @@
     "cost": 0.0
   },
   "context": {
-    "used": 85000,
+    "used": 87000,
     "max": 200000,
-    "percent": 42.0,
+    "percent": 43.0,
     "compactions": 0
   },
   "model": "anthropic/claude-opus-4-5",
