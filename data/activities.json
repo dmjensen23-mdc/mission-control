@@ -1,5 +1,25 @@
 [
   {
+    "id": "dfbf4dde-659b-49e9-8d60-14c26e9a11b0",
+    "type": "system",
+    "action": "data_refresh",
+    "title": "Mission Control Data Refreshed",
+    "description": "Updated dashboard with 3 cron jobs, token stats, and 1 notifications",
+    "status": "success",
+    "timestamp": 1770825635458,
+    "timestampISO": "2026-02-11T16:00:35.458505+00:00",
+    "priority": "medium",
+    "source": "clawdbot",
+    "metadata": {
+      "cron_count": 3,
+      "token_total": 0
+    },
+    "tags": [
+      "system",
+      "data_refresh"
+    ]
+  },
+  {
     "id": "cd37937f-62fa-4610-8097-a06260dc974b",
     "type": "code",
     "action": "git_commit",
