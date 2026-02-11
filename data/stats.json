@@ -1,16 +1,16 @@
 {
-  "lastUpdated": 1770782416588,
-  "lastUpdatedISO": "2026-02-11T04:00:16.588767+00:00",
+  "lastUpdated": 1770786016876,
+  "lastUpdatedISO": "2026-02-11T05:00:16.876680+00:00",
   "tokenUsage": {
-    "input": 0,
-    "output": 0,
-    "total": 0,
-    "cost": 0.0
+    "input": 10,
+    "output": 143,
+    "total": 153,
+    "cost": 0.01
   },
   "context": {
-    "used": 0,
+    "used": 18000,
     "max": 200000,
-    "percent": 0.0,
+    "percent": 9.0,
     "compactions": 0
   },
   "model": "claude-opus-4-5",
