@@ -3,8 +3,8 @@
     "id": "a5e981b6-5dac-4d2d-a080-967ab788a85b",
     "title": "Mission Control Data Refresh",
     "description": "Hourly backup refresh (primary updates happen after each task)",
-    "scheduled_time": 1770775200000,
-    "last_run": 1770771600000,
+    "scheduled_time": 1770778800000,
+    "last_run": 1770775200003,
     "status": "active",
     "last_status": "ok",
     "priority": "medium",
@@ -14,7 +14,7 @@
       "schedule": "0 * * * *",
       "timezone": "UTC",
       "wakeMode": "next-heartbeat",
-      "lastDurationMs": 28
+      "lastDurationMs": 12
     },
     "tags": [
       "cron",
