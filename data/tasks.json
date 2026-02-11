@@ -1,28 +1,5 @@
 [
   {
-    "id": "a5e981b6-5dac-4d2d-a080-967ab788a85b",
-    "title": "Mission Control Data Refresh",
-    "description": "Hourly backup refresh (primary updates happen after each task)",
-    "scheduled_time": 1770811200000,
-    "last_run": 1770807600010,
-    "status": "active",
-    "last_status": "ok",
-    "priority": "medium",
-    "category": "cron",
-    "estimated_duration": 30,
-    "metadata": {
-      "schedule": "0 * * * *",
-      "timezone": "UTC",
-      "wakeMode": "next-heartbeat",
-      "lastDurationMs": 36
-    },
-    "tags": [
-      "cron",
-      "automated",
-      "scheduled"
-    ]
-  },
-  {
     "id": "b6d60639-bd53-4ce1-a943-e9c46541de63",
     "title": "Improved Daily Briefing - 6:30 AM CST",
     "description": "Daily Microsoft 365 briefing using BoLT Graph API integration - updated to use new authentication method",
@@ -61,6 +38,29 @@
       "timezone": "UTC",
       "wakeMode": "now",
       "lastDurationMs": 154357
+    },
+    "tags": [
+      "cron",
+      "automated",
+      "scheduled"
+    ]
+  },
+  {
+    "id": "a5e981b6-5dac-4d2d-a080-967ab788a85b",
+    "title": "Mission Control Data Refresh",
+    "description": "Hourly backup refresh (primary updates happen after each task)",
+    "scheduled_time": 1770814800000,
+    "last_run": 1770811200008,
+    "status": "active",
+    "last_status": "ok",
+    "priority": "medium",
+    "category": "cron",
+    "estimated_duration": 30,
+    "metadata": {
+      "schedule": "0 * * * *",
+      "timezone": "UTC",
+      "wakeMode": "next-heartbeat",
+      "lastDurationMs": 63
     },
     "tags": [
       "cron",
